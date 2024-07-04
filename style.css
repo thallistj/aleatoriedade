@@ -1,0 +1,53 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+header{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.foto-header{
+    padding-left:600px;
+    margin-top:-40px;
+    
+}
+
+header p{
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgb(221, 70, 70);
+    padding: 5px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: underline;
+    color: white;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: rgb(243, 146, 146);
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.slide-fotos{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.foto-slide1{
+    padding-right:15%;
+}
